@@ -1,30 +1,24 @@
-# feedback-widget
+### Feedback Widget for Websites
 
-> Feedback widget to collect feedback about websites. Its a react component which will render at the bottom of the webpage.
+This is a react component to display a feedback widget at the bottom right of the screen. Users can provide optional rating and feedback text using it, which will be passed to callback function as (rating, feedbacktext).
 
-[![NPM](https://img.shields.io/npm/v/feedback-widget.svg)](https://www.npmjs.com/package/feedback-widget) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+#### Installation
 
-## Install
+```npm install @karthik1984/feedback-widget```
 
-```bash
-npm install --save feedback-widget
+#### How to use
+A simple example is as below
+
+```
+import { Feedback } from 'feedback-widget'
+
+
 ```
 
-## Usage
+Parameters
 
-```jsx
-import React, { Component } from 'react'
-
-import MyComponent from 'feedback-widget'
-import 'feedback-widget/dist/index.css'
-
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
-}
-```
-
-## License
-
-MIT © [MeiyappanKannappa](https://github.com/MeiyappanKannappa)
+| Parameter | Required / Optional | Default |
+| ------------- | ------------- | ----------- |
+| title | Optional  | "Feedback" |
+| bgcolor | optional | "rgba(255,255,255,0.8)" |
+| callback | optional | callback(rating,textdata) |

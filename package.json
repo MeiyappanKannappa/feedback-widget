@@ -1,13 +1,16 @@
 {
-  "name": "feedback-widget",
+  "name": "@karthik1984/feedback-widget",
   "version": "1.0.0",
-  "description": "Feedback widget to collect feedback about websites. Its a react component which will render at the bottom of the webpage.",
+  "description": "Widget to collect feedback data from websites",
   "author": "MeiyappanKannappa",
   "license": "MIT",
   "repository": "MeiyappanKannappa/feedback-widget",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "engines": {
     "node": ">=10"
   },

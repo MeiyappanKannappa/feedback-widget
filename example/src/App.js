@@ -1,10 +1,10 @@
 import React from 'react'
 
-import { ExampleComponent } from 'feedback-widget'
+import { Feedback } from 'feedback-widget'
 import 'feedback-widget/dist/index.css'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return <Feedback title="Valuable Feedback!!"/>
 }
 
 export default App

@@ -21,6 +21,9 @@ function App() {
 }
 ```
 
+<img width="404" alt="Screenshot 2023-02-24 at 4 52 40 PM" src="https://user-images.githubusercontent.com/10400725/221167634-2f177393-08c2-4287-919c-726126e69d9e.png">
+
+
 Parameters
 
 | Parameter | Required / Optional | Default |

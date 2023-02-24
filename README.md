@@ -10,9 +10,15 @@ This is a react component to display a feedback widget at the bottom right of th
 A simple example is as below
 
 ```
-import { Feedback } from 'feedback-widget'
-
-
+import Feedback from '@karthik1984/feedback-widget'
+import '@karthik1984/feedback-widget/dist/App.css'
+function App() {
+  return (
+    <div>
+      <Feedback />
+    </div>
+  );
+}
 ```
 
 Parameters
